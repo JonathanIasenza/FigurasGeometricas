@@ -101,9 +101,28 @@
 
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 500px){
     .figure-list .item{
         width: 100%;
         margin-left: 0px;
+    }
+
+    .figure3{
+        border-right: 75px solid transparent;
+        border-top: 75px solid transparent;
+        border-left: 75px solid transparent;
+        border-bottom: 75px solid #333;
+        margin-top: -190px;
+    }
+
+    .figure4{
+        width: 130px; 
+        height: 60px; 
+        border: 3px solid #555;
+        background: #333;
+        margin:auto;
+        border: 3px solid #fff; 
+        margin-top: 30px;
+        transition:.1s;
     }
 }
